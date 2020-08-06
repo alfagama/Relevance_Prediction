@@ -22,7 +22,7 @@ You are given the following data:
 1. train.csv : our training data. It contains the query terms, the query relevance (quality) and the title of
 the product corresponding to the result of that query.
 2. product_descriptions.csv: It contains full text description of the products that are found in train.csv.
-3, attributes.csv : It contains additional information about the aforementioned products in the form of
+3. attributes.csv : It contains additional information about the aforementioned products in the form of
 product id, name of an attribute, value of that attribute.
 
 You will work in two different flavors of the problem. In most of the cases, the unsupervised case is the most
