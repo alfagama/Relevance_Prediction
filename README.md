@@ -37,3 +37,11 @@ that any relevance score less than 1.5 is considered as 0 and any score equal or
 as 1. Then, you need to work only with the queries and the results in order to predict correctly if the result is
 relevant to the query or not. In this case, you are not allowed to build a model since we assume that you do
 not have access to ground truth information. The evaluation metric in this case is the average F1 score.
+
+## 3. Solution
+
+We utilize Apache Spark with the Scala programming language, in order to parallelize the work and thus make it run more efficiently.
+
+A PDF which describes the problem, our methodology and our results is also included.
+
+Joint work with [Orestis Lampridis](https://github.com/orestislampridis)
